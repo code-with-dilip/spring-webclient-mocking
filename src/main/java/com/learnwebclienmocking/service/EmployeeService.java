@@ -7,8 +7,8 @@ import reactor.core.publisher.Mono;
 public class EmployeeService {
 
     private WebClient webClient;
-    public static String PATH_PARAM_BY_ID = "/employee/{id}";
-    public static String ADD_EMPLOYEE = "/employee";
+    public static String PATH_PARAM_BY_ID = "http://localhost:8080/employee/{id}";
+    public static String ADD_EMPLOYEE = "http://localhost:8080/employee";
 
     public EmployeeService(WebClient _webClient) {
         this.webClient = _webClient;
