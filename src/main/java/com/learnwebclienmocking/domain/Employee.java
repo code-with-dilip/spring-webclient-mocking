@@ -10,6 +10,9 @@ public class Employee {
     private Integer age;
     private Role role;
 
+    public Employee(){
+    }
+
     public Employee(Integer _employeeId, String _firsName, String _lastName, Integer _age, Role _role) {
         this.employeeId = _employeeId;
         this.firsName = _firsName;
